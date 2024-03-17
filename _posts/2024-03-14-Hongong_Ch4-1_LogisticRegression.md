@@ -233,7 +233,9 @@ print(train_target[indexes])
 
 **로지스틱 회귀(logistic regression)**은 이름은 회귀이지만 분류 모델이다. 이 알고리즘은 선형 회귀와 동일하게 선형 방정식을 학습한다. 우리가 가진 데이터로 설명하면 다음의 선형 방정식을 학습한다.
 
-$ z = a \times (Weight) + b \times (Length) + c \times (Diagonal) + d \times (Height) + e \times (Width) + f \\where, \; a, b, c, d, e = coefficient(weight)$
+$$
+z = a \times (Weight) + b \times (Length) + c \times (Diagonal) + d \times (Height) + e \times (Width) + f \\where, \; a, b, c, d, e = coefficient(weight) 
+$$
 
 z는 어떤 값이던 나올 수 있다. 하지만, 확률이 되려면 0~1 사이 값이 되어야 한다. 여기서 **시그모이드 함수(sigmoid function)**(또는 **로지스틱 함수(logistic function)**)을 사용한다. 
 
