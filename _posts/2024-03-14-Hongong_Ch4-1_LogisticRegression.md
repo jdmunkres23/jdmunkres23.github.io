@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "혼공머신 Ch.4-1 로지스틱 회귀"
+use_math : true
 ---
 
 
